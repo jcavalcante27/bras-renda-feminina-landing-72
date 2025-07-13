@@ -313,9 +313,9 @@ const Index = () => {
             Não espere a sorte chegar. Crie suas próprias oportunidades no Brás.
           </p>
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8">
-            <div className="text-3xl md:text-4xl font-bold mb-2">12x de R$ 20,02</div>
-            <div className="text-lg opacity-80 line-through mb-2">De R$ 497 à vista</div>
-            <div className="text-2xl font-semibold">R$ 197,00 à vista</div>
+            <div className="text-lg opacity-80 line-through mb-2">De R$ 497</div>
+            <div className="text-2xl font-semibold mb-2">R$ 197,00 à vista</div>
+            <div className="text-xl font-bold">12x de R$ 20,02</div>
             <div className="text-sm opacity-80 mt-2">Oferta por tempo limitado</div>
           </div>
           <Button className="bg-white text-brown-800 hover:bg-brown-50 font-bold text-lg py-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 mb-6 px-[30px]">
