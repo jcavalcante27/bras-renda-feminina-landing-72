@@ -349,7 +349,7 @@ const Index = () => {
               <ul className="space-y-2 text-brown-300">
                 <li><a href="#" className="hover:text-brown-100 transition-colors">Política de Privacidade</a></li>
                 <li><a href="#" className="hover:text-brown-100 transition-colors">Termos de Uso</a></li>
-                <li><a href="#" className="hover:text-brown-100 transition-colors">Contato</a></li>
+                
               </ul>
             </div>
             <div>
