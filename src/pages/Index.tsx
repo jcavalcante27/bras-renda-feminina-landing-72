@@ -24,7 +24,10 @@ const Index = () => {
                 sem precisar de sorte ou milhares de seguidores
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button onClick={scrollToCTA} className="cta-button text-lg px-8 py-6 text-white bg-brown-800 hover:bg-brown-900">
+                <Button 
+                  onClick={() => window.open('https://pay.hub.la/zHXZ7qYJZTET5EpiuEpJ', '_blank')} 
+                  className="cta-button text-lg px-8 py-6 text-white bg-brown-800 hover:bg-brown-900"
+                >
                   Quero gerar minha renda no Brás
                 </Button>
               </div>
@@ -121,7 +124,10 @@ const Index = () => {
               <p className="text-brown-600 mb-6">
                 Não importa se você nunca trabalhou na área. O que importa é sua vontade de transformar sua vida.
               </p>
-              <Button onClick={scrollToCTA} className="cta-button w-full">
+              <Button 
+                onClick={() => window.open('https://pay.hub.la/zHXZ7qYJZTET5EpiuEpJ', '_blank')} 
+                className="cta-button w-full"
+              >
                 Sim, é para mim!
               </Button>
             </div>
@@ -318,7 +324,10 @@ const Index = () => {
             <div className="text-xl font-bold">Ou 12x de R$ 20,02</div>
             <div className="text-sm opacity-80 mt-2">Oferta por tempo limitado</div>
           </div>
-          <Button className="bg-white text-brown-800 hover:bg-brown-50 font-bold text-lg py-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 mb-6 px-[30px]">
+          <Button 
+            onClick={() => window.open('https://pay.hub.la/zHXZ7qYJZTET5EpiuEpJ', '_blank')}
+            className="bg-white text-brown-800 hover:bg-brown-50 font-bold text-lg py-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 mb-6 px-[30px]"
+          >
             Começar minha transformação agora
           </Button>
           <div className="flex items-center justify-center gap-4 text-sm opacity-80">
@@ -347,15 +356,15 @@ const Index = () => {
             <div>
               <h4 className="font-semibold mb-4">Links Úteis</h4>
               <ul className="space-y-2 text-brown-300">
-                <li><a href="#" className="hover:text-brown-100 transition-colors">Política de Privacidade</a></li>
-                <li><a href="#" className="hover:text-brown-100 transition-colors">Termos de Uso</a></li>
+                <li><a href="/privacy-policy" className="hover:text-brown-100 transition-colors">Política de Privacidade</a></li>
+                <li><a href="/terms-of-use" className="hover:text-brown-100 transition-colors">Termos de Uso</a></li>
                 
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Contato</h4>
               <p className="text-brown-300">
-                nobre.fernandafreitas@gmail.com<br />
+                contato@viradabraz.com<br />
                 <a href="https://wa.me/5511987242874" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-brown-300 hover:text-green-400 transition-colors mt-2">
                   <MessageCircle className="w-4 h-4" />
                   (11) 98724-2874
