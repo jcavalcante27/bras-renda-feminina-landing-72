@@ -364,7 +364,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-brown-700 mt-8 pt-8 text-center text-brown-300">
-            <p>&copy; 2024 Fernanda Nobre. Todos os direitos reservados.</p>
+            <p>© 2025 Fernanda Nobre CNPJ 61.206.347/0001-80 - Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>
