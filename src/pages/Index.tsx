@@ -1,11 +1,8 @@
-
-
 import React from 'react';
 import { ChevronDown, Check, Star, Users, Award, Clock, Shield, MessageCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
-
 const Index = () => {
   const scrollToCTA = () => {
     document.getElementById('main-cta')?.scrollIntoView({
@@ -193,11 +190,7 @@ const Index = () => {
             </div>
             <div className="relative">
               <div className="aspect-square bg-gradient-to-br from-brown-200 to-brown-300 rounded-2xl p-6 shadow-2xl">
-                <img 
-                  alt="Fernanda Nobre - Instrutora" 
-                  className="w-full h-full rounded-xl object-cover" 
-                  src="/lovable-uploads/80d6e1b1-c1fa-4e96-80cd-ecf692b6e70d.png" 
-                />
+                <img alt="Fernanda Nobre - Instrutora" className="w-full h-full rounded-xl object-cover" src="/lovable-uploads/80d6e1b1-c1fa-4e96-80cd-ecf692b6e70d.png" />
               </div>
             </div>
           </div>
@@ -320,9 +313,7 @@ const Index = () => {
             Não espere a sorte chegar. Crie suas próprias oportunidades no Brás.
           </p>
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8">
-            <div className="text-3xl md:text-4xl font-bold mb-2">
-              12x de R$ 19,99
-            </div>
+            <div className="text-3xl md:text-4xl font-bold mb-2">12x de R$ 20,02</div>
             <div className="text-lg opacity-80 line-through mb-2">ou R$ 500 à vista</div>
             <div className="text-2xl font-semibold">R$ 200 à vista</div>
             <div className="text-sm opacity-80 mt-2">Oferta por tempo limitado</div>
@@ -365,12 +356,7 @@ const Index = () => {
               <h4 className="font-semibold mb-4">Contato</h4>
               <p className="text-brown-300">
                 nobre.fernandafreitas@gmail.com<br />
-                <a 
-                  href="https://wa.me/5511987242874" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-brown-300 hover:text-green-400 transition-colors mt-2"
-                >
+                <a href="https://wa.me/5511987242874" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-brown-300 hover:text-green-400 transition-colors mt-2">
                   <MessageCircle className="w-4 h-4" />
                   (11) 98724-2874
                 </a>
@@ -384,6 +370,4 @@ const Index = () => {
       </footer>
     </div>;
 };
-
 export default Index;
-
