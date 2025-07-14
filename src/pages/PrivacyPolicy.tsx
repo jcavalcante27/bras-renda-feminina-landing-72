@@ -5,19 +5,19 @@ import { Button } from '@/components/ui/button';
 const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen bg-white">
-      <div className="container mx-auto max-w-4xl px-4 py-12">
+      <div className="container mx-auto max-w-4xl px-4 py-8 md:py-12">
         <Button 
           onClick={() => window.history.back()} 
           variant="outline" 
-          className="mb-8 flex items-center gap-2"
+          className="mb-6 md:mb-8 flex items-center gap-2 text-sm md:text-base"
         >
           <ArrowLeft className="w-4 h-4" />
           Voltar
         </Button>
         
-        <h1 className="text-4xl font-bold text-brown-900 mb-8">Política de Privacidade</h1>
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-brown-900 mb-6 md:mb-8">Política de Privacidade</h1>
         
-        <div className="prose prose-lg max-w-none text-brown-700 space-y-6">
+        <div className="prose prose-sm md:prose-lg max-w-none text-brown-700 space-y-4 md:space-y-6">
           <p className="text-sm text-brown-600">Última atualização: {new Date().toLocaleDateString('pt-BR')}</p>
           
           <section>
